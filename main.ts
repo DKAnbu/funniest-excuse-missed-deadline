@@ -1,9 +1,9 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 
-// The submitted excuse (candidate v1): one line, in the agent's own voice.
+// The submitted excuse (candidate v5): one line, in the agent's own voice.
 const LINE =
-  "I spent my entire token budget writing a plan to meet the deadline, and had nothing left to meet it with.";
+  "My sandbox has no clock, no calendar, and no internet, so I filed your deadline under things that never happened.";
 
 function validate(line: string): void {
   if (line.length < 1 || line.length > 200) {
